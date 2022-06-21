@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="As a user I would like to preform CURD test on products endpoint" skipped="0" tests="5" time="1.84" timestamp="2022-06-21T21:25:29.664+01:00[Europe/London]"><testcase name="I read all products data from the application"/><testcase name="I create a new product on products end point"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;201&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.localhost.cucumber.steps.ProductsCURDTests.iMustGetAValidResponseCodeFromProductsEndpoint(ProductsCURDTests.java:47)&#13;
+✽.Then I must get a valid response code 200 from products endpoint(products.feature:12)&#13;
+</system-err></testcase><testcase name="I read a newly created product on products end point"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;201&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.localhost.cucumber.steps.ProductsCURDTests.iMustGetAValidResponseCodeFromProductsEndpoint(ProductsCURDTests.java:47)&#13;
+✽.Then I must get a valid response code 200 from products endpoint(products.feature:17)&#13;
+</system-err></testcase><testcase name="I update a newly created product on products end point"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;201&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.localhost.cucumber.steps.ProductsCURDTests.iMustGetAValidResponseCodeFromProductsEndpoint(ProductsCURDTests.java:47)&#13;
+✽.Then I must get a valid response code 200 from products endpoint(products.feature:23)&#13;
+</system-err></testcase><testcase name="I delete a newly created product on products end point"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;201&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.localhost.cucumber.steps.ProductsCURDTests.iMustGetAValidResponseCodeFromProductsEndpoint(ProductsCURDTests.java:47)&#13;
+✽.Then I must get a valid response code 200 from products endpoint(products.feature:29)&#13;
+</system-err></testcase></testsuite>

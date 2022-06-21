@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user I would like to preform CURD test on products endpoint","I create a new product on products end point","FAILURE","2022-06-21T21:25:31.232+01:00[Europe/London]","0.0","0.1"
+"As a user I would like to preform CURD test on products endpoint","I read a newly created product on products end point","FAILURE","2022-06-21T21:25:31.559+01:00[Europe/London]","0.0","0.1"
+"As a user I would like to preform CURD test on products endpoint","I update a newly created product on products end point","FAILURE","2022-06-21T21:25:31.755+01:00[Europe/London]","0.0","0.05"
+"As a user I would like to preform CURD test on products endpoint","I delete a newly created product on products end point","FAILURE","2022-06-21T21:25:31.844+01:00[Europe/London]","0.0","0.04"

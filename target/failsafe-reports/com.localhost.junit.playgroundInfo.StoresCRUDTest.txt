@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.localhost.junit.playgroundInfo.StoresCRUDTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 8.263 sec <<< FAILURE! - in com.localhost.junit.playgroundInfo.StoresCRUDTest
+test005(com.localhost.junit.playgroundInfo.StoresCRUDTest)  Time elapsed: 0.386 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1563> but was:<1560>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.localhost.junit.playgroundInfo.StoresCRUDTest.test005(StoresCRUDTest.java:87)
+
+test009(com.localhost.junit.playgroundInfo.StoresCRUDTest)  Time elapsed: 0.091 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<7> but was:<8>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.localhost.junit.playgroundInfo.StoresCRUDTest.test009(StoresCRUDTest.java:130)
+
+test012(com.localhost.junit.playgroundInfo.StoresCRUDTest)  Time elapsed: 0.079 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Rochester]> but was:<[Oakdale]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.localhost.junit.playgroundInfo.StoresCRUDTest.test012(StoresCRUDTest.java:159)
+
+test013(com.localhost.junit.playgroundInfo.StoresCRUDTest)  Time elapsed: 0.078 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<11> but was:<12>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.localhost.junit.playgroundInfo.StoresCRUDTest.test013(StoresCRUDTest.java:169)
+

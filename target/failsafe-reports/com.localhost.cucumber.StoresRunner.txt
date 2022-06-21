@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.localhost.cucumber.StoresRunner
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 2, Errors: 0, Skipped: 9, Time elapsed: 0.761 sec <<< FAILURE! - in com.localhost.cucumber.StoresRunner
+And I verify the if the total is equal to 1563(Scenario: I read all stores data from the application)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1563> but was:<1560>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.localhost.cucumber.steps.StoresCRUDTests.iVerifyTheIfTheTotalIsEqualTo(StoresCRUDTests.java:103)
+	at ✽.And I verify the if the total is equal to 1563(stores.feature:31)
+
+Scenario: I read all stores data from the application  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1563> but was:<1560>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.localhost.cucumber.steps.StoresCRUDTests.iVerifyTheIfTheTotalIsEqualTo(StoresCRUDTests.java:103)
+	at ✽.And I verify the if the total is equal to 1563(stores.feature:31)
+

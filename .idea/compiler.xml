@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bestbuy-api-week20" />
+        <module name="homework-week-17-project-5-bestbuy-api-serenity" />
+        <module name="homework-week-18-project-5-bestbuy-api-serenity" />
+        <module name="homework-week-19-project-5-bestbuy-api-serenity-cucumber" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

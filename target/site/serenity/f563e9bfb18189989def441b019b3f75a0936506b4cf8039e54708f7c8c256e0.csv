@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user I would like to preform CURD test on stores endpoint","I read all stores data from the application","FAILURE","2022-06-21T21:25:33.343+01:00[Europe/London]","0.0","0.23"

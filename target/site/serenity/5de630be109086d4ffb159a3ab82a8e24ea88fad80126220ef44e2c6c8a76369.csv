@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user I would like to preform CURD test on utilities endpoint","I check version of utilities endpoint","SUCCESS","2022-06-21T21:25:33.657+01:00[Europe/London]","0.0","0.03"
+"As a user I would like to preform CURD test on utilities endpoint","I do health check of utilities endpoint","SUCCESS","2022-06-21T21:25:33.723+01:00[Europe/London]","0.0","0.09"
